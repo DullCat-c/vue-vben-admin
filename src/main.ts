@@ -17,6 +17,7 @@ import { setupI18n } from '/@/locales/setupI18n';
 import { registerGlobComp } from '/@/components/registerGlobComp';
 
 import { isDevMode } from './utils/env';
+console.log('isDevMode: ', isDevMode);
 
 if (isDevMode()) {
   import('ant-design-vue/es/style');
